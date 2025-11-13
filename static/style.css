@@ -1,0 +1,119 @@
+/* General page styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* Form card */
+form {
+    background: #f9f9f9;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Input fields */
+.inputfield {
+    margin-bottom: 20px;
+}
+
+.inputfield label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+.custom_select select,
+.inputfield input[type="text"],
+.inputfield input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Checkboxes */
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.check div {
+    display: flex;
+    align-items: center;
+}
+
+.check input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Submit button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #5563DE;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3b49c3;
+}
+
+/* Result display */
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0D47A1;
+    background-color: #E3F2FD;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Responsive for small screens */
+@media(max-width: 700px){
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+    .check {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
