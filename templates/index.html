@@ -9,19 +9,18 @@
 </head>
 <body>
     <div class="wrapper">
-        Laptop price Predictor
-    </div>
-
-    <form action="/">
-        <div class="inputfiled">
-            <label for="ram">Ram (GB)</label>
-            <input class="input" type="text" name="ram" required>
-        </div>
-        <div class="inputfiled">
-            <label for="weight">Weight (kg)</label>
-            <input class="input" type="text" name="weight" required>
-        </div>
-        <div class="inputfield">
+        <div class="title">Laptop Price Predictor</div>
+        <form action="/" method="POST">
+            <div class="form">
+                <div class="inputfield">
+                    <label for="ram">Ram (GB)</label>
+                    <input class="input" type="text" name="ram" required>
+                </div>
+                <div class="inputfield">
+                    <label for="weight">Weight (Kg)</label>
+                    <input class="input" type="text" name="weight" required>
+                </div>
+                <div class="inputfield">
                     <label for="company">Company</label>
                     <div class = "custom_select">
                         <select name="company" id="company">
@@ -100,7 +99,7 @@
                 </div>
     
                 <div class="inputfield">
-                    <input class="btn" type="submit" value=" Price">
+                    <input class="btn" type="submit" value="Precict Price">
                 </div>
             </div>
         </form>
